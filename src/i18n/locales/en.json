@@ -1,0 +1,133 @@
+{
+  "nav": {
+    "work": "Work",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact me"
+  },
+  "hero": {
+    "building": "Building",
+    "words": ["Interfaces", "Experiences", "Animations", "Web Apps"],
+    "line2": "that are Fast,",
+    "line3": "Scalable & Beautiful",
+    "description": "Hi, I’m Kirill — a Senior Frontend Engineer based in Moscow, crafting high-load web & mobile apps with React, Next.js, WebGL and Web3.",
+    "seeWork": "See My Work",
+    "downloadCv": "Download CV"
+  },
+  "counter": [
+    "Years of Experience",
+    "Projects Delivered",
+    "Mobile Apps Shipped",
+    "Technologies Mastered"
+  ],
+  "work": {
+    "more": "More Projects",
+    "view": "View project"
+  },
+  "projects": [
+    {
+      "title": "Strata Markets — Web3 / DeFi Platform",
+      "desc": "A full-fledged Web3 platform for crypto assets and DeFi: crypto-wallet integration, smart-contract interactions, token swaps and real-time trading analytics with light/dark theming."
+    },
+    {
+      "title": "Strata Markets — Animated Landing",
+      "desc": "High-load marketing landing built with scroll-driven animations, Lottie and complex parallax effects, plus a Hashnode-powered blog (GraphQL)."
+    },
+    {
+      "title": "KupitKartinu — Art Marketplace",
+      "desc": "Next.js marketplace for buying and selling art with auctions, a headless WordPress CMS and an SEO-optimized, high-performance catalog."
+    },
+    {
+      "title": "Enterprise Access Control (Sberbank ecosystem)",
+      "desc": "Internal CRM for privileged access management: session recording Video/Terminal Player, WebSockets, WEB-RDP/SSH in the browser and a flexible Keycloak/Casbin role model."
+    },
+    {
+      "title": "tutu.ru — Interactive WebGL Game",
+      "desc": "Interactive marketing game built with PixiJS (WebGL) and integrated into the mobile app via WebView, with high-performance rendering tuned for mobile devices."
+    },
+    {
+      "title": "PharmAssistant — E-learning Platform",
+      "desc": "E-learning platform for pharmacy professionals with interactive training modules and multi-step onboarding, receipt scanning and voice assistant"
+    },
+    {
+      "title": "Matchflow Analytics — B2B Dashboard",
+      "desc": "Analytical dashboard and B2B service for pharma manufacturers and pharmacy chains, with real-time data updates over WebSockets/SSE; product orders and much more"
+    },
+    {
+      "title": "Dophaminka — Mobile App",
+      "desc": "React Native app with a receipt-scanning feature and real-time reward mechanics, shipped to the App Store and Google Play. Yandex maps integration; On-Device functions"
+    },
+    {
+      "title": "thecrypto — B2B Sales CRM",
+      "desc": "Internal CRM with Google Sheets and AI integration, animated landing pages and Google OAuth2 authentication on a modular, scalable architecture."
+    }
+  ],
+  "experience": {
+    "title": "Professional Work Experience",
+    "sub": "💼 My Career Overview",
+    "responsibilities": "Responsibilities",
+    "items": [
+      {
+        "title": "Senior Frontend Engineer · Sreda Capital (BI.ZONE)",
+        "date": "April 2024 - Present",
+        "review": "At Sreda Capital (BI.ZONE) I lead frontend on high-load products across enterprise security, Web3/DeFi and e-commerce — building scalable architectures and interactive WebGL experiences.",
+        "responsibilities": [
+          "Developing scalable frontend architectures for high-load SPAs, Web3, and real-time systems",
+          "Developing interactive WebGL solutions, complex animations, and graphics (Three.js / PIXI.js)",
+          "Building UI layers: design systems, reusable components, and accessibility (a11y)",
+          "Leading frontend development on projects, mentoring developers, and conducting code reviews"
+        ]
+      },
+      {
+        "title": "Frontend Engineer (React / React Native) · PharmHUB",
+        "date": "June 2022 - April 2024",
+        "review": "At PharmHUB I built and modernized web & mobile products for the pharmacy industry, shipping React Native apps to the App Store and Google Play.",
+        "responsibilities": [
+          "Developing web applications with React / Next.js and mobile applications with React Native",
+          "Participating in UX research, interface design, and gathering client requirements",
+          "Optimizing performance and refactoring existing codebases",
+          "Publishing and maintaining applications in the App Store and Google Play"
+        ]
+      },
+      {
+        "title": "Web Developer · thecrypto",
+        "date": "March 2021 - June 2022",
+        "review": "At thecrypto I delivered a modular frontend for a B2B sales CRM with Google Sheets and AI integration, plus polished, smoothly animated landing pages.",
+        "responsibilities": [
+          "Developing a modular CRM system for B2B sales with AI and Google Sheets integrations",
+          "Creating responsive landing pages with smooth animations and 3D graphics (GSAP / Three.js)",
+          "Integrating third-party APIs (Google OAuth2, data synchronization)",
+          "Conducting code reviews and implementing clean code standards"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "How I Can Contribute & My Key Skills",
+    "sub": "🤝 What I Bring to the Table"
+  },
+  "contact": {
+    "title": "Get in Touch – Let’s Connect",
+    "sub": "💬 Have a project or a role in mind? Let’s talk! 🚀",
+    "name": "Your name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "namePlaceholder": "What’s your name?",
+    "emailPlaceholder": "What’s your email address?",
+    "messagePlaceholder": "How can I help you?",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message Sent",
+    "telegramPrompt": "Or message me directly on Telegram",
+    "status": {
+      "success": "✅ Thanks! Your message has been sent — I’ll get back to you soon.",
+      "rateLimited": "⏳ You’ve already sent a message recently. Please try again in about an hour, or reach me on Telegram below.",
+      "invalid": "⚠️ Please enter a valid name, email and a message of at least 10 characters.",
+      "error": "❌ Something went wrong while sending. Please try again or message me on Telegram."
+    }
+  },
+  "footer": {
+    "role": "Frontend Engineer",
+    "rights": "All rights reserved."
+  }
+}
