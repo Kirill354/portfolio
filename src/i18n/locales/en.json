@@ -7,7 +7,13 @@
   },
   "hero": {
     "building": "Building",
-    "words": ["Interfaces", "Experiences", "Animations", "Web Apps"],
+    "words": [
+      "Interfaces",
+      "Experiences",
+      "Animations",
+      "Web Apps",
+      "Web Apps"
+    ],
     "line2": "that are Fast,",
     "line3": "Scalable & Beautiful",
     "description": "Hi, I’m Kirill — a Senior Frontend Engineer based in Moscow, crafting high-load web & mobile apps with React, Next.js, WebGL and Web3.",

@@ -1,14 +1,17 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useTranslation } from "react-i18next";
+import { useMediaQuery } from "react-responsive";
 
 import AnimatedCounter from "../components/AnimatedCounter";
 import Button from "../components/Button";
 import { heroWordIcons } from "../constants";
 import HeroExperience from "../components/models/hero_models/HeroExperience";
+import clsx from "clsx";
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   useGSAP(() => {
     gsap.fromTo(
@@ -23,7 +26,9 @@ const Hero = () => {
   // Build the slider words from the locale (4 items) and duplicate them to 8
   // so the CSS word-slider animation loops seamlessly.
   const wordTexts = t("hero.words", { returnObjects: true });
-  const safeWords = Array.isArray(wordTexts) ? wordTexts : [];
+  const safeWords = (Array.isArray(wordTexts) ? wordTexts : []).filter(
+    (word, index) => (isMobile ? index !== 3 : index !== 4),
+  );
   const words = [...safeWords, ...safeWords].map((text, index) => ({
     text,
     imgPath: heroWordIcons[index % heroWordIcons.length],
@@ -37,7 +42,12 @@ const Hero = () => {
 
       <div className="hero-layout">
         {/* LEFT: Hero Content */}
-        <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+        <header
+          className={clsx(
+            "flex flex-col justify-center md:w-full w-screen md:px-20 px-5",
+            isMobile && "z-1000",
+          )}
+        >
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
