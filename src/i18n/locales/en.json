@@ -6,6 +6,7 @@
     "contact": "Contact me"
   },
   "hero": {
+    "logo": "Kirill Molev",
     "building": "Building",
     "words": [
       "Interfaces",
@@ -30,6 +31,7 @@
     "more": "More Projects",
     "view": "View project"
   },
+  "projectsTitle": "Main projects",
   "projects": [
     {
       "title": "Strata Markets — Web3 / DeFi Platform",
@@ -124,7 +126,8 @@
     "send": "Send Message",
     "sending": "Sending...",
     "sent": "Message Sent",
-    "telegramPrompt": "Or message me directly on Telegram",
+    "telegramPrompt": "Message directly on Telegram or call me",
+    "phone": "Phone",
     "status": {
       "success": "✅ Thanks! Your message has been sent — I’ll get back to you soon.",
       "rateLimited": "⏳ You’ve already sent a message recently. Please try again in about an hour, or reach me on Telegram below.",

@@ -236,6 +236,13 @@ const Contact = () => {
                   />
                   @k_moler
                 </a>
+                <a
+                  className="mt-2 block py-4 text-white font-semibold transition-all duration-300 hover:opacity-90"
+                  href="tel:+79258210034"
+                >
+                  <span className="font-medium">{t("contact.phone")}:</span> +7
+                  (925) 821 00 34
+                </a>
               </div>
             </div>
           </div>

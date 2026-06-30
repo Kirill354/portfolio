@@ -36,11 +36,13 @@ const projects = [
   {
     imgPath: "/images/project-1.png",
     link: "https://app.strata.markets",
+    vpn: true,
     tags: ["React", "TypeScript", "Web3", "Charts"],
   },
   {
     imgPath: "/images/project-2.png",
     link: "https://strata.markets",
+    vpn: true,
     tags: ["React", "GSAP", "Lottie", "GraphQL"],
   },
   {
@@ -77,7 +79,6 @@ const projects = [
   },
   {
     imgPath: "/images/project-9.jpg",
-    link: "https://thecrypto.help",
     tags: ["React", "GSAP", "Google API", "OAuth2"],
   },
 ];

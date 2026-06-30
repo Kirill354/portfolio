@@ -51,6 +51,9 @@ const AppShowcase = () => {
   return (
     <div id="work" ref={sectionRef} className="app-showcase lg:scroll-mt-5">
       <div className="w-full">
+        <div className="mb-8 md:mb-14 text-white text-3xl md:text-4xl font-semibold">
+          {t("projectsTitle")}
+        </div>
         <div className="showcaselayout">
           {/* Featured project */}
           <div className="first-project-wrapper showcase-animate card-border rounded-xl">
@@ -79,7 +82,7 @@ const AppShowcase = () => {
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 text-white-50 hover:text-white transition-colors duration-300"
                 >
-                  {t("work.view")} &rarr;
+                  {t("work.view")} {featured.vpn && "(VPN)"} &rarr;
                 </a>
               )}
             </div>
@@ -118,7 +121,7 @@ const AppShowcase = () => {
                       rel="noreferrer"
                       className="inline-flex items-center gap-1 text-white-50 text-[16px] hover:text-white transition-colors duration-300 mt-1"
                     >
-                      {t("work.view")} &rarr;
+                      {t("work.view")} {project.vpn && "(VPN)"} &rarr;
                     </a>
                   )}
                 </div>
@@ -173,7 +176,7 @@ const AppShowcase = () => {
                         rel="noreferrer"
                         className="inline-flex items-center gap-1 text-white-50 text-sm hover:text-white transition-colors duration-300 mt-1"
                       >
-                        {t("work.view")} &rarr;
+                        {t("work.view")} {project.vpn && "(VPN)"} &rarr;
                       </a>
                     )}
                   </div>
